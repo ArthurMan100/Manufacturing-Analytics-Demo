@@ -8,12 +8,26 @@ This project builds a reproducible data pipeline and interactive dashboard to tr
 ```
 ├── .env # Environment variables for DB connection
 ├── requirements.txt # Python dependencies
-├── data/ # Input CSV files
-├── sql/ # SQL schema files (if applicable)
+├── data/ # Dummy manufacturing datasets (CSV)
+├── sql/
+│ ├── create_tables_postgres.sql # Schema for raw QC data
+│ └── create_cp_cpk_tables.sql # Schema for Cp/Cpk metric tables
 ├── scripts/
-│ ├── postgres.py # Loads CSVs into PostgreSQL
-│ └── cp-cpk-table.ipynb # Calculates quality metrics
-├── dashboards/
-│ └── powerbi_dashboard.pbix # Power BI dashboard
+│ └── etl_pipeline_postgres.py # ETL: Loads CSVs into PostgreSQL
+├── notebook/
+│ └── cp-cpk-table.ipynb # Calculates Cp/Cpk metrics and saves to DB
+├── power-bi/
+│ └── manufacturing-analytics.pbix # Power BI dashboard
 └── README.md
+```
+
+---
+
+## ⚙️ Environment Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ArthurMan100/Manufacturing-Analytics-Demo.git
+cd your-repo-name
 ```
