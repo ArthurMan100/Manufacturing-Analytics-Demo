@@ -28,7 +28,7 @@ This project builds a reproducible data pipeline and interactive dashboard to tr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ArthurMan100/Manufacturing-Analytics-Demo.git
+git clone https://github.com/arthur-georgeson/Manufacturing-Analytics-Demo.git
 cd Manufacturing-Analytics-Demo
 ```
 
