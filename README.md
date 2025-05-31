@@ -74,11 +74,12 @@ This notebook:
 -Stores the results in new metric tables
 
 Cp/Cpk are critical in manufacturing analytics:
--Cp measures how well a process fits within specification limits.
 
--Cpk evaluates how centered the process is.
+- Cp measures how well a process fits within specification limits.
 
--These indicators are essential for identifying variability, reducing defects, and ensuring quality control over time.
+- Cpk evaluates how centered the process is.
+
+- These indicators are essential for identifying variability, reducing defects, and ensuring quality control over time.
 
 ## 📊 Power BI Dashboard
 Open:
@@ -86,17 +87,19 @@ Open:
 power-bi/manufacturing-analytics.pbix
 ```
 Connect Power BI to PostgreSQL:
--Use the credentials from your .env
 
--Choose the tables containing raw data and Cp/Cpk metrics
+- Use the credentials from your .env
+
+- Choose the tables containing raw data and Cp/Cpk metrics
 
 Dashboard Features:
--Real-time QC trends for each variable
 
--Consumption history: see what materials were used for each work order
+- Real-time QC trends for each variable
 
--Cp/Cpk visualizations to monitor process performance
+- Consumption history: see what materials were used for each work order
 
--Easy filtering by material, work order, or date
+- Cp/Cpk visualizations to monitor process performance
+
+- Easy filtering by material, work order, or date
 
 ---
