@@ -75,7 +75,9 @@ This notebook:
 
 Cp/Cpk are critical in manufacturing analytics:
 -Cp measures how well a process fits within specification limits.
+
 -Cpk evaluates how centered the process is.
+
 -These indicators are essential for identifying variability, reducing defects, and ensuring quality control over time.
 
 ## 📊 Power BI Dashboard
