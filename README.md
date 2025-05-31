@@ -1,6 +1,6 @@
-# 🧪 Manufacturing Quality Analytics Dashboard
+# Manufacturing Quality Analytics Dashboard
 
-This project builds a reproducible data pipeline and interactive dashboard to track and analyze manufacturing quality control (QC) data. It includes data ingestion from CSVs to PostgreSQL, metric calculations (including Cp and Cpk), and visualization through Power BI.
+This project builds a reproducible data pipeline and interactive dashboard to track and analyze manufacturing quality control (QC) data. It includes data ingestion from CSVs to PostgreSQL, metric calculations (including Cp and Cpk), and visualiaation through Power BI.
 
 ---
 
@@ -98,7 +98,7 @@ Dashboard Features:
 
 - Consumption history: see what materials were used for each work order
 
-- Cp/Cpk visualizations to monitor process performance
+- Cp/Cpk visualiaations to monitor process performance
 
 - Easy filtering by material, work order, or date
 
