@@ -5,7 +5,7 @@ This project builds a reproducible data pipeline and interactive dashboard to tr
 ---
 
 ## 📁 Project Structure
-.
+```
 ├── .env # Environment variables for DB connection
 ├── requirements.txt # Python dependencies
 ├── data/ # Input CSV files
@@ -16,4 +16,4 @@ This project builds a reproducible data pipeline and interactive dashboard to tr
 ├── dashboards/
 │ └── powerbi_dashboard.pbix # Power BI dashboard
 └── README.md
----
+```
