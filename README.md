@@ -67,11 +67,11 @@ jupyter notebook notebook/cp-cpk-table.ipynb
 ```
 This notebook:
 
--Retrieves raw QC data from PostgreSQL
+- Retrieves raw QC data from PostgreSQL
 
--Computes Cp (process capability) and Cpk (process centering)
+- Computes Cp (process capability) and Cpk (process centering)
 
--Stores the results in new metric tables
+- Stores the results in new metric tables
 
 Cp/Cpk are critical in manufacturing analytics:
 
